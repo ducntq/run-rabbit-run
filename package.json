@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A series of small scripts to test rabbitmq",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/ducntq/run-rabbit-run/issues"
   },
-  "homepage": "https://github.com/ducntq/run-rabbit-run#readme"
+  "homepage": "https://github.com/ducntq/run-rabbit-run#readme",
+  "dependencies": {
+    "@cloudamqp/amqp-client": "^1.1.6",
+    "dotenv": "^10.0.0"
+  }
 }
