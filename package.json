@@ -1,0 +1,19 @@
+{
+  "name": "run-rabbit-run",
+  "version": "1.0.0",
+  "description": "A series of small scripts to test rabbitmq",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ducntq/run-rabbit-run.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ducntq/run-rabbit-run/issues"
+  },
+  "homepage": "https://github.com/ducntq/run-rabbit-run#readme"
+}
